@@ -1,4 +1,4 @@
-node(){
+node(master){
 
 	def sonarHome = tool name: 'SonarScanner', type: 'hudson.plugins.sonar.SonarRunnerInstallation'
 	
